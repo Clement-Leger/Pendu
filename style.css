@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+font-family: 'Bangers', cursive;
+}
+
 #choix ul li, #reponse ul li {
     display: inline-block;
     margin: 10px;
@@ -17,7 +23,7 @@
     text-align: center;
     grid-row: 3;
     grid-column: 1;
-
+    align-items: center;
 }
 
 #score {
@@ -25,6 +31,9 @@
     grid-row: 2;
     grid-column: 1;
     transition: 1s ease;
+    position: relative;
+    top: 25px;
+    align-items: center;
 
 }
 
@@ -32,6 +41,7 @@
     text-align: center;
     grid-row: 4;
     grid-column: 1;
+    align-items: center;
 
 }
 
@@ -39,4 +49,6 @@
     text-align: center;
     grid-row: 1;
     grid-column: 1;
+    align-items: center;
+
 }
