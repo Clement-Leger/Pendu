@@ -1,0 +1,42 @@
+#choix ul li, #reponse ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.disabled {
+    opacity: 0.3;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 50px 300px 50px 1fr;
+    grid-template-columns: 1fr;
+}
+
+#reponse {
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1;
+
+}
+
+#score {
+    text-align: center;
+    grid-row: 2;
+    grid-column: 1;
+    transition: 1s ease;
+
+}
+
+#choix {
+    text-align: center;
+    grid-row: 4;
+    grid-column: 1;
+
+}
+
+#titre{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+}
